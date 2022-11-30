@@ -1,0 +1,115 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+
+.fonts {
+    color: white;
+}
+
+.box1 {
+    background-color: black;
+}
+
+.box2 {
+    background-color: red;
+    -ms-grid-column: 2;
+        grid-column-start: 2;
+    -ms-grid-column-span: 3;
+    grid-column-end: 5;
+
+}
+
+.box3 {
+    background-color: cadetblue;
+    -ms-grid-column: 1;
+        grid-column-start: 1;
+    -ms-grid-column-span: 4;
+    grid-column-end: 5;
+    -ms-grid-row: 2;
+        grid-row-start: 2;
+    -ms-grid-row-span: 3;
+    grid-row-end: 5;
+}
+
+.box4 {
+    background-color: rgb(40, 44, 48);
+    -ms-grid-column: 1;
+        grid-column-start: 1;
+    -ms-grid-column-span: 2;
+    grid-column-end: 3;
+    -ms-grid-row: 5;
+        grid-row-start: 5;
+    -ms-grid-row-span: 2;
+    grid-row-end: 7;
+
+}
+
+.box5 {
+    background-color: bisque;
+    -ms-grid-column: 4;
+        grid-column-start: 4;
+    -ms-grid-column-span: 1;
+    grid-column-end: 5;
+    -ms-grid-row: 5;
+        grid-row-start: 5;
+    -ms-grid-row-span: 1;
+    grid-row-end: 6;
+
+}
+
+.box6 {
+    background-color: aqua;
+    -ms-grid-column: 4;
+        grid-column-start: 4;
+    -ms-grid-column-span: 1;
+    grid-column-end: 5;
+    -ms-grid-row: 6;
+        grid-row-start: 6;
+    -ms-grid-row-span: 1;
+    grid-row-end: 7;
+
+}
+
+.box7 {
+    background-color: yellow;
+    -ms-grid-column: 1;
+        grid-column-start: 1;
+    -ms-grid-column-span: 4;
+    grid-column-end: 5;
+    -ms-grid-row: 7;
+        grid-row-start: 7;
+    -ms-grid-row-span: 1;
+    grid-row-end: 8;
+
+}
+
+.CONTEINER {
+    max-width: 1200px;
+    width: 100%;
+    height: 1200px;
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;  
+    display: -ms-grid;  
+    display: grid;
+    /* grid-template-columns: 20% auto ; */
+    -ms-grid-rows: 7.5% 7.5% 20% 20% 15% 15% auto;
+    grid-template-rows: 7.5% 7.5% 20% 20% 15% 15% auto;
+
+}
+
+:root{
+    --tetri: #f0f8ff;
+}
+.color {
+    color:var(--tetri)
+}
+
+
+/* აუტოპრეფიქსიდან როცა გადმოვიტანე ეს სტილები 9 შეცდომა ამომიგდო.
+ასევე ტეხტი როგორ უნდა გავცენტრო ვერ მივხდი.. */
